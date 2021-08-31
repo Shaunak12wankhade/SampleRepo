@@ -11,6 +11,10 @@ namespace ConsoleApp059
     {
         static void Main(string[] args)
         {
+            public void AnimalDetails() 
+            {
+            console.Write("Details");
+            }
             Car myObj = new Car();
             myObj.Drive();
             Car.Brake();
